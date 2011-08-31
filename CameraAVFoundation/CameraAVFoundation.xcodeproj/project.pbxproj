@@ -11,6 +11,7 @@
 		DA5AB8EE140EDA1D009795B7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA5AB8E8140EDA0A009795B7 /* AVFoundation.framework */; };
 		DA5AB8EF140EDA1D009795B7 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA5AB8E9140EDA0A009795B7 /* CoreMedia.framework */; };
 		DA5AB8F0140EDA1D009795B7 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA5AB8EA140EDA0A009795B7 /* CoreVideo.framework */; };
+		DA5AB8F3140EEE59009795B7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA5AB8F1140EEE4E009795B7 /* QuartzCore.framework */; };
 		DA83663A140ED4F600B61047 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA836639140ED4F600B61047 /* UIKit.framework */; };
 		DA83663C140ED4F600B61047 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA83663B140ED4F600B61047 /* Foundation.framework */; };
 		DA83663E140ED4F600B61047 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA83663D140ED4F600B61047 /* CoreGraphics.framework */; };
@@ -45,6 +46,7 @@
 		DA5AB8E8140EDA0A009795B7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		DA5AB8E9140EDA0A009795B7 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		DA5AB8EA140EDA0A009795B7 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		DA5AB8F1140EEE4E009795B7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		DA836635140ED4F600B61047 /* CameraAVFoundation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraAVFoundation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA836639140ED4F600B61047 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DA83663B140ED4F600B61047 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -78,6 +80,7 @@
 				DA5AB8EF140EDA1D009795B7 /* CoreMedia.framework in Frameworks */,
 				DA5AB8F0140EDA1D009795B7 /* CoreVideo.framework in Frameworks */,
 				DA83663A140ED4F600B61047 /* UIKit.framework in Frameworks */,
+				DA5AB8F3140EEE59009795B7 /* QuartzCore.framework in Frameworks */,
 				DA83663C140ED4F600B61047 /* Foundation.framework in Frameworks */,
 				DA83663E140ED4F600B61047 /* CoreGraphics.framework in Frameworks */,
 			);
@@ -118,6 +121,7 @@
 		DA836638140ED4F600B61047 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DA5AB8F1140EEE4E009795B7 /* QuartzCore.framework */,
 				DA5AB8E8140EDA0A009795B7 /* AVFoundation.framework */,
 				DA5AB8E9140EDA0A009795B7 /* CoreMedia.framework */,
 				DA5AB8EA140EDA0A009795B7 /* CoreVideo.framework */,
