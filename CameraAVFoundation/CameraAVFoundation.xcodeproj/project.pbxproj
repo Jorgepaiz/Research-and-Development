@@ -99,6 +99,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		886B3441140F8E4B00A5C631 /* camera */ = {
+			isa = PBXGroup;
+			children = (
+				DA5AB8E5140ED99A009795B7 /* CameraAVF.h */,
+				DA5AB8E6140ED99A009795B7 /* CameraAVF.m */,
+			);
+			name = camera;
+			sourceTree = "<group>";
+		};
 		DA83662A140ED4F500B61047 = {
 			isa = PBXGroup;
 			children = (
@@ -137,8 +146,7 @@
 			children = (
 				DA836648140ED4F600B61047 /* CameraAVFoundationAppDelegate.h */,
 				DA836649140ED4F600B61047 /* CameraAVFoundationAppDelegate.m */,
-				DA5AB8E5140ED99A009795B7 /* CameraAVF.h */,
-				DA5AB8E6140ED99A009795B7 /* CameraAVF.m */,
+				886B3441140F8E4B00A5C631 /* camera */,
 				DA83664B140ED4F600B61047 /* iPhone */,
 				DA836652140ED4F600B61047 /* iPad */,
 				DA836640140ED4F600B61047 /* Supporting Files */,

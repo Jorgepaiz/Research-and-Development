@@ -108,7 +108,7 @@
     [self.captureSession addInput:captureInput];
     [self.captureSession addOutput:captureOutput];
     
-    [self.captureSession setSessionPreset:AVCaptureSessionPresetMedium];
+    [self.captureSession setSessionPreset:AVCaptureSessionPresetHigh];
     
     // add the custom layer
     self.customLayer = [CALayer layer];
@@ -116,6 +116,17 @@
     self.customLayer.transform = CATransform3DRotate(CATransform3DIdentity, M_PI/2.0f, 0, 0, 1);
     self.customLayer.contentsGravity = kCAGravityResizeAspectFill;
     [self.view.layer addSublayer:self.customLayer];
+    
+    // imageView
+    self.imageView = [[UIImageView alloc] init];
+    self.imageView.frame = CGRectMake(60, 20, 200, 200);
+    [self.view addSubview:self.imageView];
+    
+    // preview
+    self.previewLayer = [AVCaptureVideoPreviewLayer layerWithSession:self.captureSession];
+    self.previewLayer.frame = CGRectMake(60, 240, 200, 200);
+    self.previewLayer.videoGravity = AVLayerVideoGravityResizeAspectFill;
+    [self.view.layer addSublayer:self.previewLayer];
     
     
     // start capture
@@ -125,6 +136,43 @@
 -(void)captureOutput:(AVCaptureOutput *)captureOutput didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer fromConnection:(AVCaptureConnection *)connection
 {
     NSLog(@"captureOutput:didOutputSampleBuffer:fromConnection on CameraAVF");
+    
+    NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
+    
+    CVImageBufferRef imageBuffer = CMSampleBufferGetImageBuffer(sampleBuffer);
+    CVPixelBufferLockBaseAddress(imageBuffer, 0);
+    
+    // information about the image
+    uint8_t *baseAddress = (uint8_t *)CVPixelBufferGetBaseAddress(imageBuffer);
+    size_t bytesPerRow = CVPixelBufferGetBytesPerRow(imageBuffer);
+    size_t width = CVPixelBufferGetWidth(imageBuffer);
+    size_t height = CVPixelBufferGetHeight(imageBuffer);
+    
+    // create a CGImageRef from the CVImageFufferRef
+    CGColorSpaceRef colorSpace = CGColorSpaceCreateDeviceRGB();
+    CGContextRef newContext = CGBitmapContextCreate(baseAddress, width, height, 8, bytesPerRow, colorSpace, kCGBitmapByteOrder32Little | kCGImageAlphaPremultipliedFirst);
+    CGImageRef newImage = CGBitmapContextCreateImage(newContext);
+    
+    // release
+    CGContextRelease(newContext);
+    CGColorSpaceRelease(colorSpace);
+    
+    // display on custom layer
+    [self.customLayer performSelectorOnMainThread:@selector(setContents:) withObject:(id)newImage waitUntilDone:YES];
+    
+    // display imageView
+    UIImage *image = [UIImage imageWithCGImage:newImage scale:1.0 orientation:UIImageOrientationRight];
+    
+    // release CGImageRef
+    CGImageRelease(newImage);
+    
+    // display imageView
+    [self.imageView performSelectorOnMainThread:@selector(setImage:) withObject:image waitUntilDone:YES];
+    
+    // unlock de image buffer
+    CVPixelBufferUnlockBaseAddress(imageBuffer, 0);
+    
+    [pool drain];
 }
 
 @end
