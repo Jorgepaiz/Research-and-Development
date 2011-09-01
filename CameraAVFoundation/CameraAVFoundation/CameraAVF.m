@@ -108,7 +108,7 @@
     [self.captureSession addInput:captureInput];
     [self.captureSession addOutput:captureOutput];
     
-    [self.captureSession setSessionPreset:AVCaptureSessionPresetMedium];
+    [self.captureSession setSessionPreset:AVCaptureSessionPreset1280x720];
     
     // add the custom layer
     self.customLayer = [CALayer layer];
@@ -124,6 +124,11 @@
     else
         self.imageView.frame = CGRectMake(60, 20, 200, 200);
     [self.view addSubview:self.imageView];
+    // label
+    UILabel *imgTitle = [[UILabel alloc] init];
+    imgTitle.text = @"Image";
+    [self.view addSubview:imgTitle];
+    [imgTitle release];
     
     // preview
     self.previewLayer = [AVCaptureVideoPreviewLayer layerWithSession:self.captureSession];
