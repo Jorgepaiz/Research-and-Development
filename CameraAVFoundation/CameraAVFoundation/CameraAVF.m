@@ -108,7 +108,7 @@
     [self.captureSession addInput:captureInput];
     [self.captureSession addOutput:captureOutput];
     
-    [self.captureSession setSessionPreset:AVCaptureSessionPresetHigh];
+    [self.captureSession setSessionPreset:AVCaptureSessionPresetMedium];
     
     // add the custom layer
     self.customLayer = [CALayer layer];
@@ -119,12 +119,18 @@
     
     // imageView
     self.imageView = [[UIImageView alloc] init];
-    self.imageView.frame = CGRectMake(60, 20, 200, 200);
+    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+        self.imageView.frame = CGRectMake(84, 75, 600, 400);
+    else
+        self.imageView.frame = CGRectMake(60, 20, 200, 200);
     [self.view addSubview:self.imageView];
     
     // preview
     self.previewLayer = [AVCaptureVideoPreviewLayer layerWithSession:self.captureSession];
-    self.previewLayer.frame = CGRectMake(60, 240, 200, 200);
+    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+        self.previewLayer.frame = CGRectMake(84, 550, 600, 400);
+    else
+        self.previewLayer.frame = CGRectMake(60, 240, 200, 200);
     self.previewLayer.videoGravity = AVLayerVideoGravityResizeAspectFill;
     [self.view.layer addSublayer:self.previewLayer];
     
