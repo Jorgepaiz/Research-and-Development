@@ -7,8 +7,27 @@
 //
 
 #import "ObjDetectionAppDelegate_iPhone.h"
+#import "iPhoneViewController.h"
 
 
 @implementation ObjDetectionAppDelegate_iPhone
+
+@synthesize viewController = _viewController;
+
+-(void)dealloc
+{
+    [self.viewController release];
+    [self.window release];
+    
+    [super dealloc];
+}
+
+-(BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    self.viewController = [[iPhoneViewController alloc] init];
+    [self.window setRootViewController:self.viewController];
+    [self.window makeKeyAndVisible];
+    return YES;
+}
 
 @end

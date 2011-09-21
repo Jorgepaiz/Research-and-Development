@@ -8,6 +8,13 @@
 
 #import "ObjDetectionAppDelegate.h"
 
+@class iPhoneViewController;
+
 @interface ObjDetectionAppDelegate_iPhone : ObjDetectionAppDelegate
+{
+    iPhoneViewController *viewController;
+}
+
+@property (nonatomic, retain) IBOutlet iPhoneViewController *viewController;
 
 @end

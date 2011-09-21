@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		881BC5131429AB35003F7298 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 881BC5111429AB28003F7298 /* AssetsLibrary.framework */; };
+		881BC5141429AB37003F7298 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 881BC50F1429AB19003F7298 /* MobileCoreServices.framework */; };
 		889A359114298A3F0094668C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889A359014298A3F0094668C /* UIKit.framework */; };
 		889A359314298A3F0094668C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889A359214298A3F0094668C /* Foundation.framework */; };
 		889A359514298A3F0094668C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889A359414298A3F0094668C /* CoreGraphics.framework */; };
@@ -24,9 +26,21 @@
 		889A35BE14298A6D0094668C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 889A35BD14298A6D0094668C /* Default@2x.png */; };
 		889A35C014298A780094668C /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 889A35BF14298A780094668C /* Default-Landscape~ipad.png */; };
 		889A35C214298A7F0094668C /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 889A35C114298A7F0094668C /* Default-Portrait~ipad.png */; };
+		889A35EF142999880094668C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889A35E5142999690094668C /* AVFoundation.framework */; };
+		889A35F01429998A0094668C /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889A35E6142999690094668C /* CoreMedia.framework */; };
+		889A35F11429998C0094668C /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889A35E71429996A0094668C /* CoreVideo.framework */; };
+		889A35F21429998E0094668C /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889A35E81429996A0094668C /* OpenGLES.framework */; };
+		889A35F3142999910094668C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889A35E91429996A0094668C /* QuartzCore.framework */; };
+		889A35F714299CD30094668C /* iPhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 889A35F514299CD20094668C /* iPhoneViewController.m */; };
+		889A35F814299CD30094668C /* iPhoneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 889A35F614299CD20094668C /* iPhoneViewController.xib */; };
+		889A35FF1429A2A20094668C /* CameraPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 889A35FE1429A2A20094668C /* CameraPreviewView.m */; };
+		889A36021429A6260094668C /* CameraCaptureManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 889A36011429A6260094668C /* CameraCaptureManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		881BC50D1429A918003F7298 /* CameraCaptureManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraCaptureManagerDelegate.h; sourceTree = "<group>"; };
+		881BC50F1429AB19003F7298 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		881BC5111429AB28003F7298 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		889A358C14298A3F0094668C /* ObjDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjDetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		889A359014298A3F0094668C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		889A359214298A3F0094668C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -50,6 +64,18 @@
 		889A35BD14298A6D0094668C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		889A35BF14298A780094668C /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
 		889A35C114298A7F0094668C /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		889A35E5142999690094668C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		889A35E6142999690094668C /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		889A35E71429996A0094668C /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		889A35E81429996A0094668C /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		889A35E91429996A0094668C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		889A35F414299CD20094668C /* iPhoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iPhoneViewController.h; path = iPhone/iPhoneViewController.h; sourceTree = "<group>"; };
+		889A35F514299CD20094668C /* iPhoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iPhoneViewController.m; path = iPhone/iPhoneViewController.m; sourceTree = "<group>"; };
+		889A35F614299CD20094668C /* iPhoneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iPhoneViewController.xib; path = iPhone/iPhoneViewController.xib; sourceTree = "<group>"; };
+		889A35FD1429A2A20094668C /* CameraPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraPreviewView.h; sourceTree = "<group>"; };
+		889A35FE1429A2A20094668C /* CameraPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraPreviewView.m; sourceTree = "<group>"; };
+		889A36001429A6260094668C /* CameraCaptureManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraCaptureManager.h; sourceTree = "<group>"; };
+		889A36011429A6260094668C /* CameraCaptureManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraCaptureManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +83,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				881BC5131429AB35003F7298 /* AssetsLibrary.framework in Frameworks */,
+				889A35EF142999880094668C /* AVFoundation.framework in Frameworks */,
+				881BC5141429AB37003F7298 /* MobileCoreServices.framework in Frameworks */,
+				889A35F01429998A0094668C /* CoreMedia.framework in Frameworks */,
+				889A35F11429998C0094668C /* CoreVideo.framework in Frameworks */,
+				889A35F21429998E0094668C /* OpenGLES.framework in Frameworks */,
+				889A35F3142999910094668C /* QuartzCore.framework in Frameworks */,
 				889A359114298A3F0094668C /* UIKit.framework in Frameworks */,
 				889A359314298A3F0094668C /* Foundation.framework in Frameworks */,
 				889A359514298A3F0094668C /* CoreGraphics.framework in Frameworks */,
@@ -86,6 +119,13 @@
 		889A358F14298A3F0094668C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				881BC5111429AB28003F7298 /* AssetsLibrary.framework */,
+				881BC50F1429AB19003F7298 /* MobileCoreServices.framework */,
+				889A35E5142999690094668C /* AVFoundation.framework */,
+				889A35E6142999690094668C /* CoreMedia.framework */,
+				889A35E71429996A0094668C /* CoreVideo.framework */,
+				889A35E81429996A0094668C /* OpenGLES.framework */,
+				889A35E91429996A0094668C /* QuartzCore.framework */,
 				889A359014298A3F0094668C /* UIKit.framework */,
 				889A359214298A3F0094668C /* Foundation.framework */,
 				889A359414298A3F0094668C /* CoreGraphics.framework */,
@@ -98,6 +138,7 @@
 			children = (
 				889A359F14298A3F0094668C /* ObjDetectionAppDelegate.h */,
 				889A35A014298A3F0094668C /* ObjDetectionAppDelegate.m */,
+				889A35FC1429A0210094668C /* AVF Camera */,
 				889A35A214298A3F0094668C /* iPhone */,
 				889A35A914298A3F0094668C /* iPad */,
 				889A35C314298AC90094668C /* Images */,
@@ -123,6 +164,9 @@
 				889A35A314298A3F0094668C /* ObjDetectionAppDelegate_iPhone.h */,
 				889A35A414298A3F0094668C /* ObjDetectionAppDelegate_iPhone.m */,
 				889A35A614298A3F0094668C /* MainWindow_iPhone.xib */,
+				889A35F414299CD20094668C /* iPhoneViewController.h */,
+				889A35F514299CD20094668C /* iPhoneViewController.m */,
+				889A35F614299CD20094668C /* iPhoneViewController.xib */,
 			);
 			name = iPhone;
 			sourceTree = "<group>";
@@ -150,6 +194,18 @@
 			);
 			name = Images;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		889A35FC1429A0210094668C /* AVF Camera */ = {
+			isa = PBXGroup;
+			children = (
+				889A35FD1429A2A20094668C /* CameraPreviewView.h */,
+				889A35FE1429A2A20094668C /* CameraPreviewView.m */,
+				889A36001429A6260094668C /* CameraCaptureManager.h */,
+				881BC50D1429A918003F7298 /* CameraCaptureManagerDelegate.h */,
+				889A36011429A6260094668C /* CameraCaptureManager.m */,
+			);
+			name = "AVF Camera";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,6 +265,7 @@
 				889A35BE14298A6D0094668C /* Default@2x.png in Resources */,
 				889A35C014298A780094668C /* Default-Landscape~ipad.png in Resources */,
 				889A35C214298A7F0094668C /* Default-Portrait~ipad.png in Resources */,
+				889A35F814299CD30094668C /* iPhoneViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,6 +280,9 @@
 				889A35A114298A3F0094668C /* ObjDetectionAppDelegate.m in Sources */,
 				889A35A514298A3F0094668C /* ObjDetectionAppDelegate_iPhone.m in Sources */,
 				889A35AC14298A3F0094668C /* ObjDetectionAppDelegate_iPad.m in Sources */,
+				889A35F714299CD30094668C /* iPhoneViewController.m in Sources */,
+				889A35FF1429A2A20094668C /* CameraPreviewView.m in Sources */,
+				889A36021429A6260094668C /* CameraCaptureManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +415,7 @@
 				889A35B414298A3F0094668C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
