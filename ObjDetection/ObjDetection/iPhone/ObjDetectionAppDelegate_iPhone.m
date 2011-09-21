@@ -25,7 +25,7 @@
 -(BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.viewController = [[iPhoneViewController alloc] init];
-    [self.window setRootViewController:self.viewController];
+    [self.window setRootViewController:self.viewController]; 
     [self.window makeKeyAndVisible];
     return YES;
 }

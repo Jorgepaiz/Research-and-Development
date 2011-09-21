@@ -1,22 +1,19 @@
 //
-//  iPhoneViewController.m
+//  iPadViewController.m
 //  ObjDetection
 //
-//  Created by Eng. Jorge Paiz on 9/20/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Created by Bosz Digital on 9/21/11.
+//  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import "iPhoneViewController.h"
+#import "iPadViewController.h"
 #import "CameraCaptureManager.h"
 
-
-@implementation iPhoneViewController
+@implementation iPadViewController
 
 
 @synthesize camPreviewView = _camPreviewView;
 @synthesize captureManager = _captureManager;
-@synthesize imageView      = _imageView;
-
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -34,25 +31,24 @@
 
 - (void)viewDidUnload
 {
-    [super viewDidUnload];
+    [super viewDidUnload];;
     
     self.camPreviewView = nil;
     self.captureManager = nil;
-    self.imageView      = nil;
 }
 
 -(void)dealloc
 {
     [self.camPreviewView release];
     [self.captureManager release];
-    [self.imageView      release];
     
     [super dealloc];
 }
 
+
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+	return YES;
 }
 
 - (void)viewDidLoad

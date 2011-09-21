@@ -7,7 +7,28 @@
 //
 
 #import "ObjDetectionAppDelegate_iPad.h"
+#import "iPadViewController.h"
+
 
 @implementation ObjDetectionAppDelegate_iPad
+
+@synthesize viewController = _viewController;
+
+-(void)dealloc
+{
+    [self.viewController release];
+    [self.window release];
+    
+    [super dealloc];
+}
+
+-(BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    self.viewController = [[iPadViewController alloc] init];
+    [self.window setRootViewController:self.viewController];
+    [self.window makeKeyAndVisible];
+    return YES;
+}
+
 
 @end
