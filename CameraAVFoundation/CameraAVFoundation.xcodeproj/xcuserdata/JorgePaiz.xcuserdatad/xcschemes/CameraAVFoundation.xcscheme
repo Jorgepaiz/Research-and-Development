@@ -14,8 +14,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DA836634140ED4F600B61047"
-               BuildableName = "CameraAVFoundation.app"
-               BlueprintName = "CameraAVFoundation"
+               BuildableName = "CameraAVF.app"
+               BlueprintName = "CameraAVF"
                ReferencedContainer = "container:CameraAVFoundation.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,8 +42,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DA836634140ED4F600B61047"
-            BuildableName = "CameraAVFoundation.app"
-            BlueprintName = "CameraAVFoundation"
+            BuildableName = "CameraAVF.app"
+            BlueprintName = "CameraAVF"
             ReferencedContainer = "container:CameraAVFoundation.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -60,8 +60,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DA836634140ED4F600B61047"
-            BuildableName = "CameraAVFoundation.app"
-            BlueprintName = "CameraAVFoundation"
+            BuildableName = "CameraAVF.app"
+            BlueprintName = "CameraAVF"
             ReferencedContainer = "container:CameraAVFoundation.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -78,8 +78,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DA836634140ED4F600B61047"
-            BuildableName = "CameraAVFoundation.app"
-            BlueprintName = "CameraAVFoundation"
+            BuildableName = "CameraAVF.app"
+            BlueprintName = "CameraAVF"
             ReferencedContainer = "container:CameraAVFoundation.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
