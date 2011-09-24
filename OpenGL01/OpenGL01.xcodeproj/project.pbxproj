@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88AF831B142E4DFB008B0689 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88AF831A142E4DFB008B0689 /* UIKit.framework */; };
+		88AF831D142E4DFB008B0689 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88AF831C142E4DFB008B0689 /* Foundation.framework */; };
+		88AF831F142E4DFB008B0689 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88AF831E142E4DFB008B0689 /* CoreGraphics.framework */; };
+		88AF8325142E4DFC008B0689 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88AF8323142E4DFC008B0689 /* InfoPlist.strings */; };
+		88AF8327142E4DFC008B0689 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88AF8326142E4DFC008B0689 /* main.m */; };
+		88AF832B142E4DFC008B0689 /* OpenGL01AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88AF832A142E4DFC008B0689 /* OpenGL01AppDelegate.m */; };
+		88AF832F142E4DFC008B0689 /* OpenGL01AppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 88AF832E142E4DFC008B0689 /* OpenGL01AppDelegate_iPhone.m */; };
+		88AF8332142E4DFC008B0689 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88AF8330142E4DFC008B0689 /* MainWindow_iPhone.xib */; };
+		88AF8336142E4DFC008B0689 /* OpenGL01AppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 88AF8335142E4DFC008B0689 /* OpenGL01AppDelegate_iPad.m */; };
+		88AF8339142E4DFC008B0689 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88AF8337142E4DFC008B0689 /* MainWindow_iPad.xib */; };
+		88AF8342142E4E67008B0689 /* iPhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88AF8340142E4E67008B0689 /* iPhoneViewController.m */; };
+		88AF8343142E4E67008B0689 /* iPhoneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88AF8341142E4E67008B0689 /* iPhoneViewController.xib */; };
+		88AF8347142E4FFF008B0689 /* iPadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88AF8345142E4FFF008B0689 /* iPadViewController.m */; };
+		88AF8348142E4FFF008B0689 /* iPadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88AF8346142E4FFF008B0689 /* iPadViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		88AF8316142E4DFB008B0689 /* OpenGL01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenGL01.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88AF831A142E4DFB008B0689 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		88AF831C142E4DFB008B0689 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		88AF831E142E4DFB008B0689 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		88AF8322142E4DFC008B0689 /* OpenGL01-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenGL01-Info.plist"; sourceTree = "<group>"; };
+		88AF8324142E4DFC008B0689 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		88AF8326142E4DFC008B0689 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		88AF8328142E4DFC008B0689 /* OpenGL01-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenGL01-Prefix.pch"; sourceTree = "<group>"; };
+		88AF8329142E4DFC008B0689 /* OpenGL01AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenGL01AppDelegate.h; sourceTree = "<group>"; };
+		88AF832A142E4DFC008B0689 /* OpenGL01AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGL01AppDelegate.m; sourceTree = "<group>"; };
+		88AF832D142E4DFC008B0689 /* OpenGL01AppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OpenGL01AppDelegate_iPhone.h; path = iPhone/OpenGL01AppDelegate_iPhone.h; sourceTree = "<group>"; };
+		88AF832E142E4DFC008B0689 /* OpenGL01AppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = OpenGL01AppDelegate_iPhone.m; path = iPhone/OpenGL01AppDelegate_iPhone.m; sourceTree = "<group>"; };
+		88AF8331142E4DFC008B0689 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		88AF8334142E4DFC008B0689 /* OpenGL01AppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OpenGL01AppDelegate_iPad.h; path = iPad/OpenGL01AppDelegate_iPad.h; sourceTree = "<group>"; };
+		88AF8335142E4DFC008B0689 /* OpenGL01AppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = OpenGL01AppDelegate_iPad.m; path = iPad/OpenGL01AppDelegate_iPad.m; sourceTree = "<group>"; };
+		88AF8338142E4DFC008B0689 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		88AF833F142E4E67008B0689 /* iPhoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iPhoneViewController.h; path = iPhone/iPhoneViewController.h; sourceTree = "<group>"; };
+		88AF8340142E4E67008B0689 /* iPhoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iPhoneViewController.m; path = iPhone/iPhoneViewController.m; sourceTree = "<group>"; };
+		88AF8341142E4E67008B0689 /* iPhoneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iPhoneViewController.xib; path = iPhone/iPhoneViewController.xib; sourceTree = "<group>"; };
+		88AF8344142E4FFF008B0689 /* iPadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iPadViewController.h; path = iPad/iPadViewController.h; sourceTree = "<group>"; };
+		88AF8345142E4FFF008B0689 /* iPadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iPadViewController.m; path = iPad/iPadViewController.m; sourceTree = "<group>"; };
+		88AF8346142E4FFF008B0689 /* iPadViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iPadViewController.xib; path = iPad/iPadViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88AF8313142E4DFB008B0689 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88AF831B142E4DFB008B0689 /* UIKit.framework in Frameworks */,
+				88AF831D142E4DFB008B0689 /* Foundation.framework in Frameworks */,
+				88AF831F142E4DFB008B0689 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88AF830B142E4DFB008B0689 = {
+			isa = PBXGroup;
+			children = (
+				88AF8320142E4DFB008B0689 /* OpenGL01 */,
+				88AF8319142E4DFB008B0689 /* Frameworks */,
+				88AF8317142E4DFB008B0689 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88AF8317142E4DFB008B0689 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88AF8316142E4DFB008B0689 /* OpenGL01.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88AF8319142E4DFB008B0689 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88AF831A142E4DFB008B0689 /* UIKit.framework */,
+				88AF831C142E4DFB008B0689 /* Foundation.framework */,
+				88AF831E142E4DFB008B0689 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		88AF8320142E4DFB008B0689 /* OpenGL01 */ = {
+			isa = PBXGroup;
+			children = (
+				88AF8329142E4DFC008B0689 /* OpenGL01AppDelegate.h */,
+				88AF832A142E4DFC008B0689 /* OpenGL01AppDelegate.m */,
+				88AF832C142E4DFC008B0689 /* iPhone */,
+				88AF8333142E4DFC008B0689 /* iPad */,
+				88AF8321142E4DFC008B0689 /* Supporting Files */,
+			);
+			path = OpenGL01;
+			sourceTree = "<group>";
+		};
+		88AF8321142E4DFC008B0689 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88AF8322142E4DFC008B0689 /* OpenGL01-Info.plist */,
+				88AF8323142E4DFC008B0689 /* InfoPlist.strings */,
+				88AF8326142E4DFC008B0689 /* main.m */,
+				88AF8328142E4DFC008B0689 /* OpenGL01-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		88AF832C142E4DFC008B0689 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				88AF832D142E4DFC008B0689 /* OpenGL01AppDelegate_iPhone.h */,
+				88AF832E142E4DFC008B0689 /* OpenGL01AppDelegate_iPhone.m */,
+				88AF8330142E4DFC008B0689 /* MainWindow_iPhone.xib */,
+				88AF833F142E4E67008B0689 /* iPhoneViewController.h */,
+				88AF8340142E4E67008B0689 /* iPhoneViewController.m */,
+				88AF8341142E4E67008B0689 /* iPhoneViewController.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		88AF8333142E4DFC008B0689 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				88AF8334142E4DFC008B0689 /* OpenGL01AppDelegate_iPad.h */,
+				88AF8335142E4DFC008B0689 /* OpenGL01AppDelegate_iPad.m */,
+				88AF8337142E4DFC008B0689 /* MainWindow_iPad.xib */,
+				88AF8344142E4FFF008B0689 /* iPadViewController.h */,
+				88AF8345142E4FFF008B0689 /* iPadViewController.m */,
+				88AF8346142E4FFF008B0689 /* iPadViewController.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88AF8315142E4DFB008B0689 /* OpenGL01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88AF833C142E4DFC008B0689 /* Build configuration list for PBXNativeTarget "OpenGL01" */;
+			buildPhases = (
+				88AF8312142E4DFB008B0689 /* Sources */,
+				88AF8313142E4DFB008B0689 /* Frameworks */,
+				88AF8314142E4DFB008B0689 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenGL01;
+			productName = OpenGL01;
+			productReference = 88AF8316142E4DFB008B0689 /* OpenGL01.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88AF830D142E4DFB008B0689 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 88AF8310142E4DFB008B0689 /* Build configuration list for PBXProject "OpenGL01" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 88AF830B142E4DFB008B0689;
+			productRefGroup = 88AF8317142E4DFB008B0689 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88AF8315142E4DFB008B0689 /* OpenGL01 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88AF8314142E4DFB008B0689 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88AF8325142E4DFC008B0689 /* InfoPlist.strings in Resources */,
+				88AF8332142E4DFC008B0689 /* MainWindow_iPhone.xib in Resources */,
+				88AF8339142E4DFC008B0689 /* MainWindow_iPad.xib in Resources */,
+				88AF8343142E4E67008B0689 /* iPhoneViewController.xib in Resources */,
+				88AF8348142E4FFF008B0689 /* iPadViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88AF8312142E4DFB008B0689 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88AF8327142E4DFC008B0689 /* main.m in Sources */,
+				88AF832B142E4DFC008B0689 /* OpenGL01AppDelegate.m in Sources */,
+				88AF832F142E4DFC008B0689 /* OpenGL01AppDelegate_iPhone.m in Sources */,
+				88AF8336142E4DFC008B0689 /* OpenGL01AppDelegate_iPad.m in Sources */,
+				88AF8342142E4E67008B0689 /* iPhoneViewController.m in Sources */,
+				88AF8347142E4FFF008B0689 /* iPadViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		88AF8323142E4DFC008B0689 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88AF8324142E4DFC008B0689 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		88AF8330142E4DFC008B0689 /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88AF8331142E4DFC008B0689 /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		88AF8337142E4DFC008B0689 /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88AF8338142E4DFC008B0689 /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88AF833A142E4DFC008B0689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88AF833B142E4DFC008B0689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88AF833D142E4DFC008B0689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenGL01/OpenGL01-Prefix.pch";
+				INFOPLIST_FILE = "OpenGL01/OpenGL01-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		88AF833E142E4DFC008B0689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenGL01/OpenGL01-Prefix.pch";
+				INFOPLIST_FILE = "OpenGL01/OpenGL01-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88AF8310142E4DFB008B0689 /* Build configuration list for PBXProject "OpenGL01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88AF833A142E4DFC008B0689 /* Debug */,
+				88AF833B142E4DFC008B0689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88AF833C142E4DFC008B0689 /* Build configuration list for PBXNativeTarget "OpenGL01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88AF833D142E4DFC008B0689 /* Debug */,
+				88AF833E142E4DFC008B0689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88AF830D142E4DFB008B0689 /* Project object */;
+}
