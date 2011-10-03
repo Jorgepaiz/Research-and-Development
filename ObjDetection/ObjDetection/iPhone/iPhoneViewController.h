@@ -15,10 +15,17 @@
     UIView    *camPreviewView;
     CameraCaptureManager *captureManager;
     UIImageView *imageView;
+    
+@private
+    IplImage* imgSource;
+    IplImage* imgTemplate;
+    IplImage* imgOutput;
 }
 
 @property (nonatomic, retain) IBOutlet UIView *camPreviewView;
 @property (nonatomic, retain) CameraCaptureManager *captureManager;
 @property (nonatomic, retain) IBOutlet UIImageView *imageView;
+
+-(void)findObject;
 
 @end
