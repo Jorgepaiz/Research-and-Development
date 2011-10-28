@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA026C0B145B0BD7007925BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA026C0A145B0BD7007925BA /* UIKit.framework */; };
+		DA026C0D145B0BD7007925BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA026C0C145B0BD7007925BA /* Foundation.framework */; };
+		DA026C0F145B0BD7007925BA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA026C0E145B0BD7007925BA /* CoreGraphics.framework */; };
+		DA026C15145B0BD7007925BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA026C13145B0BD7007925BA /* InfoPlist.strings */; };
+		DA026C17145B0BD7007925BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA026C16145B0BD7007925BA /* main.m */; };
+		DA026C1B145B0BD7007925BA /* PaizAVFoundationAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA026C1A145B0BD7007925BA /* PaizAVFoundationAppDelegate.m */; };
+		DA026C23145B0C2D007925BA /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA026C22145B0C2D007925BA /* MainViewController.m */; };
+		DA026C26145B0C4E007925BA /* iPadMainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA026C25145B0C4E007925BA /* iPadMainStoryboard.storyboard */; };
+		DA026C28145B0C5A007925BA /* iPhoneMainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA026C27145B0C5A007925BA /* iPhoneMainStoryboard.storyboard */; };
+		DA026C2A145B0E6B007925BA /* Icon-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = DA026C29145B0E6B007925BA /* Icon-iPad.png */; };
+		DA026C2C145B0E70007925BA /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DA026C2B145B0E70007925BA /* Icon.png */; };
+		DA026C2E145B0E73007925BA /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA026C2D145B0E73007925BA /* Icon@2x.png */; };
+		DA026C30145B0E7C007925BA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DA026C2F145B0E7C007925BA /* Default.png */; };
+		DA026C32145B0E7F007925BA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA026C31145B0E7F007925BA /* Default@2x.png */; };
+		DA026C3A145B113D007925BA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA026C38145B112C007925BA /* AVFoundation.framework */; };
+		DA026C3C145B16F1007925BA /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = DA026C3B145B16F1007925BA /* Default-Portrait~ipad.png */; };
+		DA026C3E145B16F8007925BA /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = DA026C3D145B16F8007925BA /* Default-Landscape~ipad.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DA026C06145B0BD7007925BA /* PaizAVFoundatin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaizAVFoundatin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA026C0A145B0BD7007925BA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DA026C0C145B0BD7007925BA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DA026C0E145B0BD7007925BA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DA026C12145B0BD7007925BA /* PaizAVFoundatin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PaizAVFoundatin-Info.plist"; sourceTree = "<group>"; };
+		DA026C14145B0BD7007925BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DA026C16145B0BD7007925BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA026C18145B0BD7007925BA /* PaizAVFoundatin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PaizAVFoundatin-Prefix.pch"; sourceTree = "<group>"; };
+		DA026C19145B0BD7007925BA /* PaizAVFoundationAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaizAVFoundationAppDelegate.h; sourceTree = "<group>"; };
+		DA026C1A145B0BD7007925BA /* PaizAVFoundationAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaizAVFoundationAppDelegate.m; sourceTree = "<group>"; };
+		DA026C21145B0C2D007925BA /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		DA026C22145B0C2D007925BA /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		DA026C25145B0C4E007925BA /* iPadMainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPadMainStoryboard.storyboard; sourceTree = "<group>"; };
+		DA026C27145B0C5A007925BA /* iPhoneMainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhoneMainStoryboard.storyboard; sourceTree = "<group>"; };
+		DA026C29145B0E6B007925BA /* Icon-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-iPad.png"; sourceTree = "<group>"; };
+		DA026C2B145B0E70007925BA /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		DA026C2D145B0E73007925BA /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		DA026C2F145B0E7C007925BA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DA026C31145B0E7F007925BA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DA026C38145B112C007925BA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DA026C3B145B16F1007925BA /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		DA026C3D145B16F8007925BA /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA026C03145B0BD7007925BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA026C3A145B113D007925BA /* AVFoundation.framework in Frameworks */,
+				DA026C0B145B0BD7007925BA /* UIKit.framework in Frameworks */,
+				DA026C0D145B0BD7007925BA /* Foundation.framework in Frameworks */,
+				DA026C0F145B0BD7007925BA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA026BFB145B0BD7007925BA = {
+			isa = PBXGroup;
+			children = (
+				DA026C10145B0BD7007925BA /* PaizAVFoundatin */,
+				DA026C09145B0BD7007925BA /* Frameworks */,
+				DA026C07145B0BD7007925BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA026C07145B0BD7007925BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA026C06145B0BD7007925BA /* PaizAVFoundatin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA026C09145B0BD7007925BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA026C38145B112C007925BA /* AVFoundation.framework */,
+				DA026C0A145B0BD7007925BA /* UIKit.framework */,
+				DA026C0C145B0BD7007925BA /* Foundation.framework */,
+				DA026C0E145B0BD7007925BA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA026C10145B0BD7007925BA /* PaizAVFoundatin */ = {
+			isa = PBXGroup;
+			children = (
+				DA026C19145B0BD7007925BA /* PaizAVFoundationAppDelegate.h */,
+				DA026C1A145B0BD7007925BA /* PaizAVFoundationAppDelegate.m */,
+				DA026C24145B0C34007925BA /* Main View Controller */,
+				DA026C37145B0E9F007925BA /* Images */,
+				DA026C11145B0BD7007925BA /* Supporting Files */,
+			);
+			path = PaizAVFoundatin;
+			sourceTree = "<group>";
+		};
+		DA026C11145B0BD7007925BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA026C12145B0BD7007925BA /* PaizAVFoundatin-Info.plist */,
+				DA026C13145B0BD7007925BA /* InfoPlist.strings */,
+				DA026C16145B0BD7007925BA /* main.m */,
+				DA026C18145B0BD7007925BA /* PaizAVFoundatin-Prefix.pch */,
+				DA026C25145B0C4E007925BA /* iPadMainStoryboard.storyboard */,
+				DA026C27145B0C5A007925BA /* iPhoneMainStoryboard.storyboard */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA026C24145B0C34007925BA /* Main View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DA026C21145B0C2D007925BA /* MainViewController.h */,
+				DA026C22145B0C2D007925BA /* MainViewController.m */,
+			);
+			name = "Main View Controller";
+			sourceTree = "<group>";
+		};
+		DA026C37145B0E9F007925BA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DA026C3D145B16F8007925BA /* Default-Landscape~ipad.png */,
+				DA026C3B145B16F1007925BA /* Default-Portrait~ipad.png */,
+				DA026C31145B0E7F007925BA /* Default@2x.png */,
+				DA026C2F145B0E7C007925BA /* Default.png */,
+				DA026C2D145B0E73007925BA /* Icon@2x.png */,
+				DA026C2B145B0E70007925BA /* Icon.png */,
+				DA026C29145B0E6B007925BA /* Icon-iPad.png */,
+			);
+			name = Images;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA026C05145B0BD7007925BA /* PaizAVFoundatin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA026C1E145B0BD7007925BA /* Build configuration list for PBXNativeTarget "PaizAVFoundatin" */;
+			buildPhases = (
+				DA026C02145B0BD7007925BA /* Sources */,
+				DA026C03145B0BD7007925BA /* Frameworks */,
+				DA026C04145B0BD7007925BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaizAVFoundatin;
+			productName = PaizAVFoundatin;
+			productReference = DA026C06145B0BD7007925BA /* PaizAVFoundatin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA026BFD145B0BD7007925BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = DA026C00145B0BD7007925BA /* Build configuration list for PBXProject "PaizAVFoundatin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DA026BFB145B0BD7007925BA;
+			productRefGroup = DA026C07145B0BD7007925BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA026C05145B0BD7007925BA /* PaizAVFoundatin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA026C04145B0BD7007925BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA026C15145B0BD7007925BA /* InfoPlist.strings in Resources */,
+				DA026C26145B0C4E007925BA /* iPadMainStoryboard.storyboard in Resources */,
+				DA026C28145B0C5A007925BA /* iPhoneMainStoryboard.storyboard in Resources */,
+				DA026C2A145B0E6B007925BA /* Icon-iPad.png in Resources */,
+				DA026C2C145B0E70007925BA /* Icon.png in Resources */,
+				DA026C2E145B0E73007925BA /* Icon@2x.png in Resources */,
+				DA026C30145B0E7C007925BA /* Default.png in Resources */,
+				DA026C32145B0E7F007925BA /* Default@2x.png in Resources */,
+				DA026C3C145B16F1007925BA /* Default-Portrait~ipad.png in Resources */,
+				DA026C3E145B16F8007925BA /* Default-Landscape~ipad.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA026C02145B0BD7007925BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA026C17145B0BD7007925BA /* main.m in Sources */,
+				DA026C1B145B0BD7007925BA /* PaizAVFoundationAppDelegate.m in Sources */,
+				DA026C23145B0C2D007925BA /* MainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DA026C13145B0BD7007925BA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA026C14145B0BD7007925BA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA026C1C145B0BD7007925BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA026C1D145B0BD7007925BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA026C1F145B0BD7007925BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PaizAVFoundatin/PaizAVFoundatin-Prefix.pch";
+				INFOPLIST_FILE = "PaizAVFoundatin/PaizAVFoundatin-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DA026C20145B0BD7007925BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PaizAVFoundatin/PaizAVFoundatin-Prefix.pch";
+				INFOPLIST_FILE = "PaizAVFoundatin/PaizAVFoundatin-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA026C00145B0BD7007925BA /* Build configuration list for PBXProject "PaizAVFoundatin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA026C1C145B0BD7007925BA /* Debug */,
+				DA026C1D145B0BD7007925BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA026C1E145B0BD7007925BA /* Build configuration list for PBXNativeTarget "PaizAVFoundatin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA026C1F145B0BD7007925BA /* Debug */,
+				DA026C20145B0BD7007925BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA026BFD145B0BD7007925BA /* Project object */;
+}
