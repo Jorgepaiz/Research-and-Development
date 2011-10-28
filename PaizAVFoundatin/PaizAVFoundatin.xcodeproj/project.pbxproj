@@ -24,6 +24,7 @@
 		DA026C3A145B113D007925BA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA026C38145B112C007925BA /* AVFoundation.framework */; };
 		DA026C3C145B16F1007925BA /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = DA026C3B145B16F1007925BA /* Default-Portrait~ipad.png */; };
 		DA026C3E145B16F8007925BA /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = DA026C3D145B16F8007925BA /* Default-Landscape~ipad.png */; };
+		DA4C38D2145B51A3000D54FE /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA4C38CF145B5195000D54FE /* CoreVideo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		DA026C38145B112C007925BA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		DA026C3B145B16F1007925BA /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
 		DA026C3D145B16F8007925BA /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		DA4C38CF145B5195000D54FE /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +59,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA026C3A145B113D007925BA /* AVFoundation.framework in Frameworks */,
-				DA026C0B145B0BD7007925BA /* UIKit.framework in Frameworks */,
-				DA026C0D145B0BD7007925BA /* Foundation.framework in Frameworks */,
 				DA026C0F145B0BD7007925BA /* CoreGraphics.framework in Frameworks */,
+				DA4C38D2145B51A3000D54FE /* CoreVideo.framework in Frameworks */,
+				DA026C0D145B0BD7007925BA /* Foundation.framework in Frameworks */,
+				DA026C0B145B0BD7007925BA /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +89,7 @@
 		DA026C09145B0BD7007925BA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DA4C38CF145B5195000D54FE /* CoreVideo.framework */,
 				DA026C38145B112C007925BA /* AVFoundation.framework */,
 				DA026C0A145B0BD7007925BA /* UIKit.framework */,
 				DA026C0C145B0BD7007925BA /* Foundation.framework */,
@@ -327,6 +331,7 @@
 				DA026C20145B0BD7007925BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
